@@ -1,1 +1,1 @@
-Menambahkan (screenshots/03-float.png)
+Menambahkan `float: left` dan `padding: 10px` pada `div`, serta warna latar berbeda untuk tiap class.<img width="181" height="85" alt="image" src="https://github.com/user-attachments/assets/32afd41c-b78f-4d83-9f22-9cfb7b062512" />
