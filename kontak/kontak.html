@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html" class="active">Kontak</a>
+        </nav>
+
+        <section id="hero">
+            <h1>Kontak</h1>
+            <p>Punya pertanyaan, saran, atau ingin berkolaborasi? Isi form di bawah ini dan pesan Anda akan kami baca.</p>
+        </section>
+
+        <section id="wrapper">
+            <section id="main">
+                <article class="entry">
+                    <h2>Kirim Pesan</h2>
+                    <form class="contact-form" action="#" method="post">
+                        <div class="form-group">
+                            <label for="nama">Nama</label>
+                            <input type="text" id="nama" name="nama" class="form-control" placeholder="Nama lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="nama@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telepon">No. Telepon</label>
+                            <input type="tel" id="telepon" name="telepon" class="form-control" placeholder="08xxxxxxxxxx">
+                        </div>
+                        <div class="form-group">
+                            <label for="subjek">Subjek</label>
+                            <select id="subjek" name="subjek" class="form-control">
+                                <option value="pertanyaan">Pertanyaan</option>
+                                <option value="saran">Saran</option>
+                                <option value="kerjasama">Kerja sama</option>
+                                <option value="lainnya">Lainnya</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Tulis pesan Anda di sini" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">Kirim pesan</button>
+                        <p class="form-note">Form ini hanya latihan tampilan, data belum dikirim ke server.</p>
+                    </form>
+                </article>
+            </section>
+
+            <aside id="sidebar">
+                <div class="widget-box contact-info">
+                    <h3 class="title">Informasi Kontak</h3>
+                    <p><strong>Alamat</strong><br>Universitas Pelita Bangsa, Bekasi</p>
+                    <p><strong>Email</strong><br>email@contoh.com</p>
+                    <p><strong>Telepon</strong><br>08xx-xxxx-xxxx</p>
+                </div>
+                <div class="widget-box">
+                    <h3 class="title">Jam Respon</h3>
+                    <p>Pesan dibalas pada hari kerja, Senin sampai Jumat, pukul 08.00 - 16.00 WIB.</p>
+                </div>
+            </aside>
+        </section>
+
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
