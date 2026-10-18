@@ -8,9 +8,9 @@ Menambahkan reset CSS (`margin: 0; padding: 0`), pengaturan `body`, lebar `#cont
 | | |
 |---|---|
 | **Mata Kuliah** | Pemrograman Web |
-| **Nama** | _(isi nama)_ |
-| **NIM** | _(isi NIM)_ |
-| **Kelas** | _(isi kelas)_ |
+| **Nama** | Syafira Anwar |
+| **NIM** | 312510179 |
+| **Kelas** |i253c|
 
 ## Struktur Folder
 
