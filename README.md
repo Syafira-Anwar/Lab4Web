@@ -191,38 +191,6 @@ Menambahkan dua `<article class="entry">` yang dipisahkan `<hr class="divider">`
 
 ---
 
-# Pertanyaan dan Tugas
-
-## Tugas 1: Layout menu About
-
-File: `lab4_layout/about.html`
-
-Halaman About memakai kerangka dan `style.css` yang sama dengan `home.html`. Menu **About** pada navigasi diberi class `active`. Isi halaman:
-
-- **Tentang Saya**: foto dan deskripsi diri.
-- **Keahlian**: daftar skill.
-- **Portfolio**: tiga proyek dalam satu baris (class `.box`).
-- **Sidebar**: widget navigasi cepat dan sekilas info.
-
-![Halaman About](screenshots/15-about.png)
-
-## Tugas 2: Layout menu Contact
-
-File: `lab4_layout/kontak.html`
-
-Halaman Kontak berisi form dengan isian **nama, email, telepon, subjek, dan message** serta tombol kirim. Setiap input memiliki `<label for>` dan atribut `required` untuk field wajib. Sidebar berisi informasi kontak dan jam respon. Form hanya latihan tampilan, belum terhubung ke server.
-
-![Halaman Kontak](screenshots/16-kontak.png)
-
----
-
-# Validasi HTML
-
-Dokumen HTML divalidasi melalui <https://validator.w3.org>.
-
-_(Tambahkan screenshot hasil validasi `home.html`, `about.html`, dan `kontak.html` di sini, mis. `![Validasi](screenshots/17-validasi.png)`.)_
-
----
 
 # Kesimpulan
 
