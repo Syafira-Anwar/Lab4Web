@@ -188,10 +188,3 @@ Menambahkan tiga `.box` bergambar bulat di dalam `.row`. Setiap box berlebar `33
 Menambahkan dua `<article class="entry">` yang dipisahkan `<hr class="divider">`. Artikel pertama memiliki gambar di kiri, sedangkan artikel kedua di kanan (class `right-img` dengan `float: right`).
 
 ![Tampilan halaman home lengkap](screenshots/14-artikel.png)
-
----
-
-
-# Kesimpulan
-
-_(Tuliskan 2-3 kalimat tentang apa yang kamu pelajari: box element, `float`, `clear`, dan elemen semantik HTML5.)_
